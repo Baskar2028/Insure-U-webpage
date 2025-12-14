@@ -1,10 +1,5 @@
+// Mobile Menu Functionality
 const menuOpenButton = document.getElementById("menuOpen");
 const menuCloseButton = document.querySelector("#menuClose");
+const navList = document.querySelector(".nav-list");
 
-menuOpenButton.addEventListener("click", () => {
-  document.body.classList.toggle("show-mobile-menu");
-});
-
-menuCloseButton.addEventListener("click", () => {
-  menuOpenButton.click();
-});
